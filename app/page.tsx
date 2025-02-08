@@ -1,5 +1,3 @@
-'use client';
-
 import dynamic from 'next/dynamic';
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
