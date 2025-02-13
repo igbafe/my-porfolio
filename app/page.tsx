@@ -18,10 +18,8 @@ export default function Home() {
     <main className="relative bg-black-100 overflow-hidden">
       <div className="max-w-7xl w-full mx-auto px-5 sm:px-10">
         <FloatingNav navItems={navItems} />
-        {/* 
-        <Grid /> 
-        */}
         <Hero />
+        <Grid />
         <RecentProjects />
         <Experience />
         <Process />
