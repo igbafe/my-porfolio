@@ -136,10 +136,10 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
-          {/* {id === 6 && (
+          {id === 6 && (
             <div className="mt-5 relative ">
               <div className="absolute -bottom-5 right-0 ">
-                <Lottie
+                {/* <Lottie
                   options={{
                     loop: copied,
                     autoplay: copied,
@@ -148,7 +148,7 @@ export const BentoGridItem = ({
                       preserveAspectRatio: "xMidYMid slice",
                     },
                   }}
-                />
+                /> */}
               </div>
 
               <MagicButton
@@ -159,7 +159,7 @@ export const BentoGridItem = ({
                 handleClick={handleCopy}
               />
             </div>
-          )} */}
+          )}
         </div>
       </div>
     </div>
