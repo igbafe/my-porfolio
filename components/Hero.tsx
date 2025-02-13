@@ -45,7 +45,6 @@ const Hero = () => {
               otherClasses="text-lg"
             />
           </ScrollLink>
-          ;
         </div>
       </div>
     </div>
