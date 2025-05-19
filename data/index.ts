@@ -49,14 +49,15 @@ export const gridItems = [
   {
     id: 5,
     title: "Exploring JavaScript Animations",
-    description: "Creating interactive UI effects with libraries like Lottie and Framer Motion.",
+    description:
+      "Creating interactive UI effects with libraries like Lottie and Framer Motion.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
-  
+
   {
     id: 6,
     title: "Do you want to start a project together?",
@@ -88,19 +89,19 @@ export const projects = [
   },
   {
     id: 3,
+    title: "StudyBoosta",
+    des: "StudyBoosta is a platform that connects students with educational videos, offering personalized learning experiences.",
+    img: "/d5.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://www.studyboosta.com/",
+  },
+  {
+    id: 4,
     title: "CarFinder: Your Ultimate Vehicle Search Engine",
     des: "Effortlessly browse and discover cars by name, fuel type, model, year, and more. Find your perfect ride with precision and ease.",
     img: "/d3.png",
     iconLists: ["/tail.svg", "/ts.svg", "/next.svg"],
     link: "https://car-hub-site-showcase.vercel.app",
-  },
-  {
-    id: 4,
-    title: "Netflix Clone",
-    des: "A Netflix clone built with React.js and Firebase.",
-    img: "/d4.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "firebase.svg"],
-    link: "https://netflix-clone-a4d6a.web.app/",
   },
 ];
 
@@ -189,7 +190,7 @@ export const workExperience = [
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", 
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
