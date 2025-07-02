@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col md:flex-row mt-16 justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Simon-Peter
+          Copyright © 2025 Simon-Peter
         </p>
         <div className="flex items-center justify-center md:gap-3 gap-6 ">
           {socialMedia.map((profile) => (
